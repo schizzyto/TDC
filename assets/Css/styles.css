@@ -1,0 +1,187 @@
+/*
+ ______     ______     __  __     __     ______     ______     __    
+/\  ___\   /\  ___\   /\ \_\ \   /\ \   /\___  \   /\___  \   /\ \   
+\ \___  \  \ \ \____  \ \  __ \  \ \ \  \/_/  /__  \/_/  /__  \ \ \  
+ \/\_____\  \ \_____\  \ \_\ \_\  \ \_\   /\_____\   /\_____\  \ \_\ 
+  \/_____/   \/_____/   \/_/\/_/   \/_/   \/_____/   \/_____/   \/_/ 
+                                                                     
+*/
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #DCDCDC;
+  color: #20B2AA;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+header {
+  background-color: rgb(34, 31, 31);
+  color: #FFF;
+  padding: 10px 20px;
+}
+
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+
+.logo-titulo h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+nav .menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav .menu li {
+  display: inline-block;
+}
+
+
+nav .menu li a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+
+nav .menu li a:hover {
+  background-color: #700;
+}
+
+
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+
+.produto-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.produto, .detalhes-produto {
+  background-color: #FFF;
+  border: 1px solid #20B2AA;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  align-items: center;
+}
+
+
+.produto img, .detalhes-produto img {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  border-radius: 8px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+
+.produto h3, .detalhes-produto h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+
+.produto p, .detalhes-produto p {
+  font-size: 16px;
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+}
+
+
+.botao, .voltar, .comprar, button {
+  display: inline-block;
+  margin-top: auto;
+  background-color: #20B2AA;
+  color: #FFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.botao:hover, .voltar:hover, .comprar:hover, button:hover {
+  background-color: #20B2AA;
+}
+
+
+.contato {
+  display: flex;
+  align-items: center;
+  margin: 60px;
+  padding: 20px;
+  border: 1px solid #FFF;
+  border-radius: 8px;
+  background-color: #FFF;
+}
+
+
+.contato img {
+  max-width: 550px;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+
+.contato-info {
+  max-width: 600px;
+}
+
+
+.contato-info h2 {
+  margin-top: 0;
+}
+
+
+footer {
+  background-color: #333;
+  color: #FFF;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  margin-top: auto;
+}
